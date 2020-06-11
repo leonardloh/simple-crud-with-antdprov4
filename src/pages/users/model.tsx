@@ -1,4 +1,4 @@
-import { Reducer, Effects, Subscription } from 'umi';
+import { Reducer, Effect, Subscription } from 'umi';
 import { getRemoteList } from './service';
 
 interface UserModelType{

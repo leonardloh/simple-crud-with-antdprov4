@@ -44,6 +44,8 @@ const index = ({ users }) =>{
 
 
 const mapStateToProps = ({users})=>{
+  console.log("mapStateToProps users");
+  console.log(users);
   return {
     users
   };
